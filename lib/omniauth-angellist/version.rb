@@ -1,5 +1,5 @@
 module OmniAuth
-  module GitHub
+  module AngelList
     VERSION = "1.0.0"
   end
 end
