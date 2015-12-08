@@ -8,6 +8,10 @@ module OmniAuth
         :authorize_url => 'https://angel.co/api/oauth/authorize',
         :token_url => 'https://angel.co/api/oauth/token'
       }
+      option :authorize_options, {
+        :scope => 'message'
+      }
+
 
       def request_phase
         super
